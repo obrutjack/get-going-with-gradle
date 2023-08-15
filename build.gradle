@@ -7,3 +7,15 @@
           attributes('Main-Class': 'com.jackliu.languageapp.SayHello')
       }
 }
+
+repositories {
+   mavenCentral()
+}
+
+dependencies {
+   testImplementation 'org.junit.jupiter:junit-jupiter:5.6.3'
+}
+
+test {
+   useJUnitPlatform()
+}
